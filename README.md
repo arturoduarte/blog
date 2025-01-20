@@ -9,12 +9,6 @@ Algunas instrucciones para la instalación de la aplicación.
 rails action_text:install
 ```
 
-
-
-
-
-
-
 # Creación de la base de datos
 ```
 rails db:create
