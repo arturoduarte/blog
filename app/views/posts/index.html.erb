@@ -6,10 +6,14 @@
 
 <div id="posts">
   <% @posts.each do |post| %>
-    <%= render post %>
-    <p>
-      <%= link_to "Show this post", post %>
-    </p>
+    <!-- div with black border -->
+    <div style="border: #ffffff 2px solid">
+        <%= render post %>
+        <p>
+          <%= link_to "Show this post", post %>
+        </p>
+    </div>
+
   <% end %>
 </div>
 
