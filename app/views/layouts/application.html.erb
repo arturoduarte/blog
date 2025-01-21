@@ -28,6 +28,8 @@
   </head>
 
   <body>
+    <!--  sign out button-->
+    <%= button_to 'Sign out', session_path, method: :delete if authenticated? %>
     <%= yield %>
   </body>
 </html>

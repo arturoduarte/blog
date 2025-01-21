@@ -22,3 +22,8 @@ bin/importmap pin local-time
 rails db:create
 ```
 
+# Authentication creation
+```
+rails g authentication
+```
+
