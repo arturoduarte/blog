@@ -2,12 +2,12 @@
 service: blog
 
 # Name of the container image.
-image: your-user/blog
+image: arthur/blog
 
 # Deploy to these servers.
 servers:
   web:
-    - 192.168.0.1
+    - 192.168.0.3
   # job:
   #   hosts:
   #     - 192.168.0.1

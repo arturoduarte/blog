@@ -68,6 +68,7 @@ trix-toolbar .trix-button {
 
 trix-toolbar .trix-button--icon {
   font-size: inherit;
+  background: #cbeefa;
   width: 2.6em;
   height: 1.6em;
   max-width: calc(0.8em + 4vw);
